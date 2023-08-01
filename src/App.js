@@ -53,7 +53,7 @@ constructor(){
 <input type='text'  className='nm1' name="name" placeholder='Enter Your Name' value={this.state.name} onChange={this.handle}/>
 
 <label className='nm'>Department :</label>
-<input type='text' className='nm1' name="dapartment" placeholder='Enter Your Department' value={this.state.department} onChange={this.handle}/>
+<input type='text' className='nm1' name="department" placeholder='Enter Your Department' value={this.state.department} onChange={this.handle}/>
 
 <label className='nm'>Rating :</label>
 <input type='number' className='nm1' name="rating"  value={this.state.Rating} onChange={this.handle}/>
